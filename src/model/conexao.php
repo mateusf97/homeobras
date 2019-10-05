@@ -1,10 +1,10 @@
 <?php
 
-	$ip = "localhost";
+	$ip = "localhost:8887";
 	$user = "root";
 	$senha = "";
 
-	$db = "mysql";
+	$db = "homeobras";
 
 	$conexao = mysqli_connect($ip,$user,$senha,$db);
 

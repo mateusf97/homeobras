@@ -61,3 +61,34 @@
   display: inline-block;
   width: 100%;
 }
+
+select {
+  width: auto;
+}
+
+.input-data-container {
+  display: inline;
+  white-space: nowrap;
+  height: 50px;
+  display: block;
+
+}
+
+.input-data-container input, .input-data-container select{
+  border-radius: 5px;
+  border: 1px solid #f5d29a;
+  padding: 5px;
+  margin-left: 5px;
+  min-width: 150px;
+}
+
+.input-data-container input[type=button] {
+  cursor: pointer;
+  background: #ffe7c1;
+}
+
+.input-data-container input[type=button]:hover,active {
+  cursor: pointer;
+  background: #f5d29a;
+  border: 1px solid #ffca74;
+}
