@@ -1,8 +1,8 @@
 <?php
 
-	$ip = "localhost:8887";
+	$ip = "localhost";
 	$user = "root";
-	$senha = "";
+	$senha = "prisvo12";
 
 	$db = "homeobras";
 

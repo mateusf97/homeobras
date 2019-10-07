@@ -2,7 +2,15 @@
 
 
   function validaDados($data) {
-	  if(strlen($data['login']) < 3) {
+	  if(strlen($data['cpf']) != 11) {
+      return false;
+    }
+
+    if(strlen($data['date']) != 10) {
+      return false;
+    }
+
+    if(strlen($data['login']) < 3) {
       return false;
     }
 
@@ -40,7 +48,7 @@
   function criaUsuario($data) {
     include '../model/conexao.php';
 
-    $SQL = "INSERT INTO users SET type = '" . $data['type'] . "', name = '" . $data['nome'] . "', login = '" . $data['login'] . "', password = '" . $data['password'] . "';";
+    $SQL = "INSERT INTO users SET type = '" . $data['type'] . "', name = '" . $data['nome'] . "', login = '" . $data['login'] . "', password = '" . $data['password'] . "', cpf = '" . $data['cpf'] . "', data = '" . $data['date'] . "';";
 
     $rs = mysqli_query($conexao, $SQL) or die("error criacao de usuario");
 

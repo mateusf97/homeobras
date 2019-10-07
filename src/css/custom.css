@@ -82,6 +82,15 @@ select {
   min-width: 150px;
 }
 
+.input-data-container-small input, .input-data-container select{
+  border-radius: 5px;
+  border: 1px solid #f5d29a;
+  padding: 5px;
+  margin-left: 5px;
+  min-width: 50px;
+  width: 100%;
+}
+
 .input-data-container input[type=button] {
   cursor: pointer;
   background: #ffe7c1;
@@ -91,4 +100,29 @@ select {
   cursor: pointer;
   background: #f5d29a;
   border: 1px solid #ffca74;
+}
+
+
+.input-data-user {
+  width: 100px;
+  display: inline-block;
+  border: 1px solid #f5d29a;
+  border-right: none;
+  padding: 10px;
+}
+
+.title-container {
+  min-width: 420px;
+}
+.input-data-title {
+  display: inline-block;
+  border: 1px solid #f5d29a;
+  padding: 2px;
+}
+
+.input-data-user:last-child {
+  width: 100px;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid #f5d29a;
 }
