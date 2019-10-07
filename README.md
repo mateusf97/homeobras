@@ -12,8 +12,11 @@ Este é o teste de estágio da homeobras de Mateus Felipe
    contém o arquivo index.php
 
  - Existe um pasta chamada scripts, você pode criar o banco de dados
-   importante o arquivo database.sql para o seu banco de dados SQL
+   importando o arquivo database.sql para o seu banco de dados SQL
 
  - Mude o arquivo ***conexao.php*** localizado dentro de ***src/model***
    com as informações necessárias para fazer o sistema acessar banco de
    dados.
+
+ - essas são as informações necessárias para poder rodar as funcionalidades
+   do meu sistema no seu sistema
