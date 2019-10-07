@@ -25,7 +25,7 @@
       <a href="?page=ver_aluno&id=<?php echo $user['id']; ?>"><?php  echo $user['name']; ?></a>
     </div>
     <div class="input-data-user">
-      trabalho
+      <a href="file:/<?php echo $user['url']; ?>" target="_blank">Arquivo</a>
     </div>
     <div class="input-data-user user-value" data-id="<?php echo $user['id']; ?>">
       <div class="input-data-container-small">
